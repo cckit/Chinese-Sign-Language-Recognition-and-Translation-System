@@ -1,4 +1,5 @@
 Chinese-Sign-Language-Recognition-and-Translation-System
 ========================================================
 
-Chinese Sign Language Recognition and Translation System by usingChampion Project in 2012 Intel Cup Embedded Systems Design Contest 
+Using Kinect as input to classify up to 50 signs
+Champion Project in 2012 Intel Cup Embedded Systems Design Contest
