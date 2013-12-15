@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Generator">
+      <UniqueIdentifier>{15f05d1f-bfbd-42c9-b4b9-3f14dce1118e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Record">
+      <UniqueIdentifier>{37fe0f22-12a9-480a-b8d5-c0cf86454f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SVM">
+      <UniqueIdentifier>{56e6003a-455c-46b0-9a68-f0887b654f52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthRedirector.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="UserEvents.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRecordAnalyzer.cpp">
+      <Filter>Source Files\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="svm.cpp">
+      <Filter>Source Files\SVM</Filter>
+    </ClCompile>
+    <ClCompile Include="svm-predict.cpp">
+      <Filter>Source Files\SVM</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRecorderConsumer.cpp">
+      <Filter>Source Files\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRecorderProductor.cpp">
+      <Filter>Source Files\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="GestureRedirector.cpp">
+      <Filter>Source Files\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="SentenceSelector.cpp">
+      <Filter>Source Files\Record</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

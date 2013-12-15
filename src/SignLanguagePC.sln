@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HandSignRecorder", "HandSignRecorder\HandSignRecorder.vcxproj", "{48EF311A-C186-4127-83D6-F4A69AFCC06B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HandSignGUI", "HandSignGUI\HandSignGUI.vcxproj", "{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}"
+	ProjectSection(ProjectDependencies) = postProject
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B} = {48EF311A-C186-4127-83D6-F4A69AFCC06B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Presentor", "Presentor\Presentor.vcxproj", "{7A8EBF7A-7C8A-482F-B666-1120E913B371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Debug|Win32.Build.0 = Debug|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Release|Win32.ActiveCfg = Release|Win32
+		{48EF311A-C186-4127-83D6-F4A69AFCC06B}.Release|Win32.Build.0 = Release|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Debug|Win32.Build.0 = Debug|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Release|Any CPU.ActiveCfg = Release|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Release|Win32.ActiveCfg = Release|Win32
+		{3168C218-A0FA-4FA8-91E5-0F4D3C43A181}.Release|Win32.Build.0 = Release|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Debug|Win32.Build.0 = Debug|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Release|Win32.ActiveCfg = Release|Win32
+		{7A8EBF7A-7C8A-482F-B666-1120E913B371}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
